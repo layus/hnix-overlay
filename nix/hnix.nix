@@ -4,8 +4,8 @@ let
   src = super.fetchFromGitHub {
     owner = "haskell-nix";
     repo = "hnix";
-    rev = "dfa0435e9e91de3152f3c43ce8f35fa98fc03cbd";
-    sha256 = "1j74l3am3d0ql3wrv53q5gng04bbzwp7vm1wj9yikczkcvgm7iny";
+    rev = "pull/554/head";
+    sha256 = "080gi0pzr6dgfhaw3vyz4n4v4dlj5g0jnvz5dafijajkvdsyyiwx";
   };
 
   # swap with src to build from this path
