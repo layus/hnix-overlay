@@ -4,8 +4,8 @@ let
   src = super.fetchFromGitHub {
     owner = "layus";
     repo = "hnix-store";
-    rev = "lift";
-    sha256 = "00jx8cn9j709sycvnp3jmk1hbc8jmpjd8r6d0d9b0rwfzhva6lzv";
+    rev = "derivationStrict";
+    sha256 = "1vbnvwxp43k6i8w06jdxq143ibxbdp4i2f7jxkq1xf3gl1imm0ls";
   };
 
   # swap with src to build from this path
